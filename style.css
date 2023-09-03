@@ -1,0 +1,31 @@
+/* Landing page CSS */
+*{
+    margin: 0;
+    padding: 0;
+    background-color: #360369;
+    color: #FFFFFF;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+/* Place div at the center of page */
+div{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 50px; 
+}
+h1{
+    padding-bottom: 20PX;
+}
+
+/* Fetch Data Button CSS */
+button{
+    font-size: 26px;
+    background-color: #FFFFFF;
+    color:  #000000;
+    padding: 10px 150px;
+    border-radius: 10px;
+    margin-top: 10px !important;
+}

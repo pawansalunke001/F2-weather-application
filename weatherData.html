@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>weather data</title>
+    <link rel="stylesheet" href="style_weather.css">
+    <!-- imported bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="main container-fluid">
+        <div class="Map_data row">
+            <!-- Headers shown -->
+            <div class="row">
+                <h2 id="head">Welcome To The Weather App</h2>
+            </div>
+            <div class="row">
+                <h5 id="sub-head">Here is your current location</h5>
+            </div>
+            <!-- Load latitude and longitude details here -->
+            <div class="row">
+                <div class="col-lg-5 col-md-5 col-xs-10"><button type="button" id="lat">Lat: </button></div>
+                <div class="col-lg-5 col-md-5 col-xs-10"><button type="button" id="long">Long: </button></div>
+            </div>
+            <!-- Map Integration -->
+            <div id="geo_map row">
+                <iframe src="" frameborder="0" style="border: 0;" id="map_iframe"></iframe>
+            </div>
+        </div>
+        <!-- Load weather data here -->
+        <div class="Weather_data_details" id="Weather_data_details"></div>
+    </div>
+    <!-- Import script file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
